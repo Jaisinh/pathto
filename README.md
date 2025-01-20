@@ -4,12 +4,16 @@ A fast command-line utility to search for files and directories across your enti
 
 ## Installation
 
-1. Copy the script to your system:
+1. Clone this repository
 ```bash
-sudo curl -o /usr/local/bin/pathto https://raw.githubusercontent.com/YourUsername/pathto/main/pathto
+git clone https://github.com/Jaisinh/pathto
+```
+2. Shift the pathto.py
+```bash
+mv pathto.py /usr/local/bin/pathto
 ```
 
-2. Make it executable:
+3. Make it executable:
 ```bash
 sudo chmod +x /usr/local/bin/pathto
 ```
